@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"/Users/dorinmanolii/Documents/Unreal Projects/Game_Mid/Intermediate/Source/Game_Mid.Build.cs",
+		"/Users/dorinmanolii/Documents/Unreal Projects/Game_Mid/Intermediate/Source/Game_Mid.Target.cs",
+		"/Users/dorinmanolii/Documents/Unreal Projects/Game_Mid/Intermediate/Source/Game_MidClient.Target.cs",
+		"/Users/dorinmanolii/Documents/Unreal Projects/Game_Mid/Intermediate/Source/Game_MidEditor.Target.cs",
+		"/Users/dorinmanolii/Documents/Unreal Projects/Game_Mid/Intermediate/Source/Game_MidServer.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		1730435D802DE14DC1980BBC = {isa = PBXBuildFile; fileRef = 59EDFA3BC2428DD30DB79532; }; /* Game_Mid.cpp */
+		1F2EC2651F006D2CB28A35CC = {isa = PBXBuildFile; fileRef = F51BA4511331EA98A3F68560; }; /* Assets.xcassets */
+		52E622831D7C0928A8615016 = {isa = PBXBuildFile; fileRef = A1508C95258E0A923AA62B1B; }; /* LaunchScreen.storyboardc */
+		FAE18A4559B855C4A7EEA9BC = {isa = PBXBuildFile; fileRef = B955F79581FCEAACBB07567D; }; /* UEMetadata */
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F519DBC82B7C343B37F88500 = {isa = PBXFileReference; explicitFileType = file.txt; name = "Game_Mid.uproject"; path = "../../Game_Mid.uproject"; sourceTree = SOURCE_ROOT; };
+		CBF77FFADAE9F8CB7E8E3029 = {isa = PBXFileReference; explicitFileType = file.txt; name = "Game_Mid.Build.cs"; path = "../Source/Game_Mid.Build.cs"; sourceTree = SOURCE_ROOT; };
+		CF746C0FF4BEC24D1E04EB4B = {isa = PBXFileReference; explicitFileType = file.txt; name = "Game_Mid.Target.cs"; path = "../Source/Game_Mid.Target.cs"; sourceTree = SOURCE_ROOT; };
+		59EDFA3BC2428DD30DB79532 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Game_Mid.cpp"; path = "../Source/Game_Mid.cpp"; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 = {isa = PBXFileReference; explicitFileType = file.txt; name = "README.md"; path = "../../README.md"; sourceTree = SOURCE_ROOT; };
+		24A45CD96D95895BC4A5110D = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "Game_Mid"; path = "Game_Mid"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51BA4511331EA98A3F68560 = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/Mac/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		A1508C95258E0A923AA62B1B = {isa = PBXFileReference; explicitFileType = wrapper.storyboardc; name = "LaunchScreen.storyboardc"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc"; sourceTree = "<absolute>"; };
+		B955F79581FCEAACBB07567D = {isa = PBXFileReference; explicitFileType = file.txt; name = "UEMetadata"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/Mac/Resources/UEMetadata"; sourceTree = "<absolute>"; };
+		04C439815166733EF6CEA4B5 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Game_Mid.xcconfig"; path = "XcconfigsMac/Game_Mid.xcconfig"; sourceTree = "<group>"; };
+		C2685B54931886220767CF7D = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Game_Mid_DebugGame.xcconfig"; path = "XcconfigsMac/Game_Mid_DebugGame.xcconfig"; sourceTree = "<group>"; };
+		C693EDB396BDFABC154AB9E7 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Game_Mid_Development.xcconfig"; path = "XcconfigsMac/Game_Mid_Development.xcconfig"; sourceTree = "<group>"; };
+		2CD01213FB9A4D36821F8DFF = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Game_Mid_Shipping.xcconfig"; path = "XcconfigsMac/Game_Mid_Shipping.xcconfig"; sourceTree = "<group>"; };
+		50EC78E3CAFE0DE7FCBC9789 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info-Editor.Template.plist"; path = "../../../../../../Shared/Epic Games/UE_5.4/Engine/Intermediate/Build/Mac/Resources/Info-Editor.Template.plist"; sourceTree = "<group>"; };
+		31E5322FDAE4B86D77C6E269 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/Mac/Resources/Info.Template.plist"; sourceTree = "<group>"; };
+		85D9122153B6CBACDC1E980F = {isa = PBXFileReference; explicitFileType = text.plist; name = "Sandbox.Server.entitlements"; path = "../../Build/Mac/Resources/Sandbox.Server.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B86DEA2A257A63A1D78858E9 = {
+			isa = PBXGroup;
+			children = (
+				08A4A2D05D794642C45CA844 /* Intermediate */,
+				F519DBC82B7C343B37F88500 /* Game_Mid.uproject */,
+				940AC694D607EE88F16DFF10 /* README.md */,
+				0406A3E4A3051BD139715535 /* Products */,
+				26F8044A0D45EB1D248B8F25 /* Resources */,
+				9B159FDF504237E6BAB391BC /* Xcconfigs */,
+				33957934D4DB69E0BE40E3CC /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		08A4A2D05D794642C45CA844 = {
+			isa = PBXGroup;
+			children = (
+				1818DAFE75B5770FBAAA6B51 /* Source */,
+			);
+			name = "Intermediate";
+			path = "/Users/dorinmanolii/Documents/Unreal Projects/Game_Mid/Intermediate";
+			sourceTree = "<absolute>";
+		};
+		1818DAFE75B5770FBAAA6B51 = {
+			isa = PBXGroup;
+			children = (
+				CBF77FFADAE9F8CB7E8E3029 /* Game_Mid.Build.cs */,
+				CF746C0FF4BEC24D1E04EB4B /* Game_Mid.Target.cs */,
+				59EDFA3BC2428DD30DB79532 /* Game_Mid.cpp */,
+			);
+			name = "Source";
+			path = "/Users/dorinmanolii/Documents/Unreal Projects/Game_Mid/Intermediate/Source";
+			sourceTree = "<absolute>";
+		};
+		0406A3E4A3051BD139715535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24A45CD96D95895BC4A5110D /* Game_Mid */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F8044A0D45EB1D248B8F25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F51BA4511331EA98A3F68560 /* Assets.xcassets */,
+				A1508C95258E0A923AA62B1B /* LaunchScreen.storyboardc */,
+				B955F79581FCEAACBB07567D /* UEMetadata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9B159FDF504237E6BAB391BC /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				04C439815166733EF6CEA4B5 /* Game_Mid.xcconfig */,
+				C2685B54931886220767CF7D /* Game_Mid_DebugGame.xcconfig */,
+				C693EDB396BDFABC154AB9E7 /* Game_Mid_Development.xcconfig */,
+				2CD01213FB9A4D36821F8DFF /* Game_Mid_Shipping.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		33957934D4DB69E0BE40E3CC /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				50EC78E3CAFE0DE7FCBC9789 /* Info-Editor.Template.plist */,
+				31E5322FDAE4B86D77C6E269 /* Info.Template.plist */,
+				85D9122153B6CBACDC1E980F /* Sandbox.Server.entitlements */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXProject section */
+		E08905097D27FD5A43514837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					9F642B2110492F5D3850EFD4 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4745703DE6B3F5A473BD87C5 /* Build configuration list for PBXProject "Game_Mid" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = B86DEA2A257A63A1D78858E9;
+			productRefGroup = 0406A3E4A3051BD139715535;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F642B2110492F5D3850EFD4 /* Game_Mid */,
+			);
+		};
+/* End PBXProject section */
+/* Begin Run_App section */
+		9F642B2110492F5D3850EFD4 /* Game_Mid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743CC59C5E4E00C6CFA3DAD0 /* Build configuration list for PBXNativeTarget "Game_Mid" */;
+			buildPhases = (
+				1316952DBA6D8DA014D85319 /* Resources */,
+				AED710002CE85D234B7A729E /* Copy Executable and Staged Data into .app */,
+				A759588540F73836B40714AD /* Generate dsym for archive, and strip */,
+			);
+			dependencies = (
+			);
+			name = "Game_Mid";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.application";
+			productReference = 24A45CD96D95895BC4A5110D;
+			productName = "Game_Mid";
+		};
+/* End Run_App section */
+		743CC59C5E4E00C6CFA3DAD0 /* Build configuration list for target Game_Mid */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599EA12521108C3A78F86A18 /* DebugGame */,
+				FBDC49FA22EBFFD4B5886430 /* Development */,
+				D0ECFC76A44A3DFC8A5BC871 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		599EA12521108C3A78F86A18 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2685B54931886220767CF7D /* Game_Mid_DebugGame.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		FBDC49FA22EBFFD4B5886430 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C693EDB396BDFABC154AB9E7 /* Game_Mid_Development.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		D0ECFC76A44A3DFC8A5BC871 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD01213FB9A4D36821F8DFF /* Game_Mid_Shipping.xcconfig */;
+			buildSettings = {
+			};
+			name = "Shipping";
+		};
+/* Begin PBXResourcesBuildPhase section */
+		1316952DBA6D8DA014D85319 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2EC2651F006D2CB28A35CC /* Assets.xcassets in Resources */,
+				52E622831D7C0928A8615016 /* LaunchScreen.storyboardc in Resources */,
+				FAE18A4559B855C4A7EEA9BC /* UEMetadata in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		AED710002CE85D234B7A729E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Executable and Staged Data into .app";
+			inputPaths = (
+			);
+			outputPaths = (
+				"/dev/null"
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR} but do not overwrite unless src is newer\nmkdir -p \"${DEST_EXE_DIR}\"\nrsync -au \"${SRC_EXE}\" \"${DEST_EXE}\"\n\n# Skip syncing if desired\nif [[ ${UE_SKIP_STAGEDDATA_SYNC} -eq 1 ]]; then exit 0; fi\n\n# When building engine projects, like UnrealGame, we don't have data to stage unless something has specified UE_OVERRIDE_STAGE_DIR\nif [[ -z ${UE_OVERRIDE_STAGE_DIR} ]]; then \nSTAGED_DIR=\"${UE_PROJECT_DIR}/Saved/StagedBuilds/${UE_TARGET_PLATFORM_NAME}\"\nelse\n  STAGED_DIR=\"${UE_OVERRIDE_STAGE_DIR}\"\nfi\nif [[ -z ${STAGED_DIR} ]]; then exit 0; fi\n# Make sure the staged directory exists and has files in it\nif [[ ! -e \"${STAGED_DIR}\" || ! $(ls -A \"${STAGED_DIR}\") ]]; then \n  echo =========================================================================================\n  echo \"WARNING: To run, you must have a valid staged build directory. The Staged location is:\"\n  echo \"  ${STAGED_DIR}\"\n  echo \"Use the editor's Platforms menu, or run a command like::\"\n  echo \"./RunUAT.sh BuildCookRun -platform=Mac -project=<project> -build -cook -stage -pak\"\n  echo =========================================================================================\n  exit -0 \nfi\n\necho \"Syncing ${STAGED_DIR} to ${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"\nrsync -a --delete --exclude=\"/Info.plist\" --exclude=\"/Manifest_*\" --exclude=\"/*.app\" \"${STAGED_DIR}/\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		A759588540F73836B40714AD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Generate dsym for archive, and strip";
+			inputPaths = (
+				"\"$(CONFIGURATION_BUILD_DIR)/$(EXECUTABLE_PATH)\""
+			);
+			outputPaths = (
+				"\"$(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)\""
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# Run the wrapper dsym generator\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/GenerateUniversalDSYM.sh\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\" \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\nstrip -no_code_signature_warning -D \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\n\n# Remove any unused architectures from dylibs in the .app (param1) that don't match the executable (param2). Also error if a dylib is missing arches\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/ThinApp.sh\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+		4745703DE6B3F5A473BD87C5 /* Build configuration list for target Game_Mid */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE7C17BFD8364A41C6048B4 /* DebugGame */,
+				A65CC634B9A9C8FD2EE7CBB5 /* Development */,
+				290F50CF2AE88B6D4AC59D85 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		ABE7C17BFD8364A41C6048B4 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "DebugGame";
+		};
+		A65CC634B9A9C8FD2EE7CBB5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Development";
+		};
+		290F50CF2AE88B6D4AC59D85 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Shipping";
+		};
+	};
+	rootObject = E08905097D27FD5A43514837 /* Project object */;
+}
